@@ -5,7 +5,7 @@ import { Button } from '../widgets/button';
 
 const Menu: FC = () => {
   return (
-    <nav className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-sm z-50 border-b border-gray-100">
+    <nav className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-sm z-50">
       <div className="max-w-[1440px] mx-auto px-24 py-5 flex items-center justify-between">
         <div className="w-[200px]">
           <Link to="/">
