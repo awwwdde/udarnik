@@ -13,7 +13,7 @@ const Footer: FC = () => {
               Создаём новую индустриальную революцию
             </p>
             <p className="text-gray-600 text-sm">
-              © Ударник 2025
+              © 2025 ООО "Ударник"
             </p>
           </div>
           <div className="flex flex-col gap-2">

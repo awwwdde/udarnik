@@ -6,10 +6,10 @@ const EvaPage: React.FC = () => {
     <div className="min-h-screen scroll-smooth flex flex-col items-center">
       <div className="flex flex-col items-center text-center max-w-3xl px-4 pt-40">
         <h1 className="text-5xl font-medium mb-4 whitespace-nowrap">
-            Найдёт и закроет вашу следующую сделку
+          Ева - Наш Первый Ударник
         </h1>
         <p className="text-gray-500 text-xl">
-            Ева закрывает полный цикл продаж. От поиска и анализа потенциального клиента до холодного контакта и совершения продажи.
+            Ева автоматизирует продажи — от поиска и определения нужных людей до написания персонализированных сообщений.
         </p>
       </div>
       <div className="w-full flex justify-center mt-32">
@@ -18,6 +18,9 @@ const EvaPage: React.FC = () => {
           alt="Ева"
           className="object-contain h-[60vh] max-w-5xl w-full"
         />
+      </div>
+      <div className="w-full flex justify-center mt-32">
+        <p className="text-5xl font-medium mb-4 whitespace-nowrap">Как работает Ева?</p>
       </div>
     </div>
   );
